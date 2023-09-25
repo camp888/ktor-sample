@@ -1,0 +1,14 @@
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "0",
+  "name": "Brogrammer",
+  "jobDesc": "i can do everything",
+  "price": 50.0
+}
+
+GET http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+
